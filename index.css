@@ -9,7 +9,7 @@ div{
 	padding: 0;
 }
 header{
-	width: 100%;
+	
 	background-color: black;
 	margin: auto;
 	min-height: 120px;
@@ -37,18 +37,17 @@ header{
 .container{
 	margin: auto;
 	width: 100%;
+	background-color: 
 }
 .inner-container{
 	margin: auto;
-	width: 100%;
+	max-width: 1366px;
 }
-#showcase{
-	width: 100%;
-}
+#showca
 
 .boxes{
 	min-height: 150px;
-	width: 100%;                        
+	min-width: 480px;                         
 	display: flex;
 	padding: 0;
 
@@ -58,6 +57,7 @@ header{
 	min-height: 80px;
 	text-align: center;
 	padding: 5px;
+
 	flex: 1;
 }
 .upperbox{
@@ -66,7 +66,7 @@ header{
 #endorsement{
 	min-height: 7rem;
 	background-color: #f0f0f0;
-	width: 100%;
+	min-width: 490px;
 	border-bottom: 5px solid white;
 }
 #endorse{
@@ -152,9 +152,7 @@ input{
 	cursor: pointer;
 	text-decoration: none;
 }
-
-
-@media only screen and (max-width: 469px){
+@media(max-width: 500px){
 	header{
 		height: 90px;
 	}
@@ -180,9 +178,6 @@ input{
 		flex-direction: column;
 		width: 100%;
 
-	}
-	.box{
-		display: none;
 	}
 	label{
 		display: block;
