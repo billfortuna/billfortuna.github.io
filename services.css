@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+}
+header{
+	width: 100%;
+	background-color: black;
+	min-height: 90px;
+	position: fixed;
+	overflow: hidden;
+}
+h1, h2, h3, h4, h5{
+	margin: 0;
+}
+header{
+	width: 100%;
+	background-color: black;
+	min-height: 90px;
+	position: fixed;
+	overflow: hidden;
+}
+h1, h2, h3, h4, h5{
+	margin: 0;
+}
+div{
+	margin:0;
+	padding: 0;
+}
+
+#logo{
+	float: left;
+	min-height: 3rem;
+}
+#logo img{
+	padding-left: 30px;
+	height: 80px;
+}
+#navi{
+	float: right;
+}
+#navi a{
+	text-decoration: none;
+	color: white;
+	line-height: 90px;
+	margin: 0 10px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+label{
+	margin: 0 40px 0 0;
+	color: white;
+	font-size: 26px;
+	line-height: 90px;
+	display: none;
+}
+#toggle{
+	display: none;
+}
+
+.container1{
+background-color: white;
+}
+.container2{
+background-color: #f0f0f0 ;
+}
+.inner-container{
+	padding: 20px 50px 20px 50px;
+}
+section{
+	margin-top: 10px;
+	margin: auto;
+	text-align: center;
+}
+section img{
+	width: 100%;
+}
+footer{
+	padding-top: 19px;
+	text-align: center;
+	height: 2.5rem;
+	background-color: black;
+	color: white;
+}
+@media(max-width: 500px){
+	.inner-container{
+		padding: 10px;
+	}
+	.inner-container img{
+		width: 400px;
+	}
+	#toggle:checked +#navi{
+		display: block;
+	}
+	label{
+		display: block;
+		cursor: pointer;
+		width: 26px;
+		float: right;
+		color: white;
+	}
+	#navi a{
+		font-size: 20px;
+		display: block;	
+	}
+	#navi{
+		text-align: center;
+		width: 100%;
+		display: none;
+		background-color: black
+	}
+	
+

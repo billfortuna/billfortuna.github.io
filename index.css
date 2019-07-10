@@ -1,0 +1,208 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	
+}
+div{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	background-color: black;
+	margin: auto;
+	min-height: 120px;
+}
+#logo{
+	float: left;
+	height: 4rem;
+}
+#logo img{
+	padding: 10px 0 10px 70px;
+}
+#navi{
+	float: right;
+	padding-right: 20px;
+}
+#navi a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	margin: 0 10px;
+	line-height: 120px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.container{
+	margin: auto;
+	width: 100%;
+	background-color: 
+}
+.inner-container{
+	margin: auto;
+	max-width: 1366px;
+}
+#showcase{
+	background: url('showcase-image.jpg') 100%;
+	background-repeat: no-repeat;
+	min-height: 500px;
+	color:white;
+	text-align: center;
+}
+
+.boxes{
+	min-height: 150px;
+	min-width: 480px;                         
+	display: flex;
+	padding: 0;
+
+}
+.box{
+	margin: auto;
+	min-height: 80px;
+	text-align: center;
+	padding: 5px;
+	flex: 1;
+}
+.upperbox{
+	padding-top: 40px;
+}
+#endorsement{
+	min-height: 7rem;
+	background-color: #f0f0f0;
+	min-width: 490px;
+	border-bottom: 5px solid white;
+}
+#endorse{
+	float: left;
+	margin: 2rem;
+}
+#search-area{
+	float: right;
+	margin-right: 30px;
+}
+.submit-button{
+	height: 25px;
+	border: none;
+	background-color: #1b3c35;
+	color: white;
+	font-family: Verdana;
+}
+.textbox-search{
+	height: 21px;
+	font-family: Verdana;
+}
+footer{
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 50px;
+}
+#toggle{
+	display: none;
+}
+label{
+	margin: 0 40px 0 0;
+	font-size: 26px;
+	line-height: 90px;
+	display: none;
+}
+#login{
+	height: 500px;
+	width: 350px;
+	background-color: white;
+	margin: auto;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+	
+}
+#modal{
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1;
+	padding-top: 50px;
+	display: none;
+	
+}
+#showcase span{
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+}
+
+input{
+	display: block;
+	height: 40px;
+	width: 270px;
+	margin-top: 20px;
+	margin: auto;
+
+}
+#username{
+	background-image: url('username.jpg');
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+#closeBtn{
+	float: right;
+	padding: 10px;
+	font-size: 20px;
+	color: #ccc;
+}
+#closeBtn:hover,#closeBtn:focus{
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+}
+@media only screen and (max-width: 900px){
+	header{
+		height: 90px;
+	}
+	#logo img{
+		height: 70px;
+	}
+	#logo{
+		margin-left: -50px;
+	}
+	#navi a{
+		font-size: 20px;
+		display: block;
+		margin: 0;
+	}
+	#navi{
+		text-align: center;
+		width: 100%;
+		display: none;
+		background-color: black;
+	}
+	.boxes{
+		float: none;
+		flex-direction: column;
+		width: 100%;
+
+	}
+	label{
+		display: block;
+		cursor: pointer;
+		width: 26px;
+		float: right;
+		color: white;
+	}
+	#toggle:checked +#navi{
+		display: block;
+	}
+	#endorsement{
+		min-width: 400px;
+	}
+	h1, h2, h3,h4,h5,p{
+		font-size: 12px;
+	}
+	#search-area{
+		margin: auto;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+}
