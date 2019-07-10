@@ -152,7 +152,7 @@ input{
 	cursor: pointer;
 	text-decoration: none;
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 900px){
 	header{
 		height: 90px;
 	}
