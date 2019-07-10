@@ -37,11 +37,10 @@ header{
 .container{
 	margin: auto;
 	width: 100%;
-	background-color: 
 }
 .inner-container{
 	margin: auto;
-	max-width: 1366px;
+	width: 100%;
 }
 #showcase{
 	width: 100%;
@@ -49,7 +48,7 @@ header{
 
 .boxes{
 	min-height: 150px;
-	min-width: 480px;                         
+	width: 100%;                        
 	display: flex;
 	padding: 0;
 
@@ -67,7 +66,7 @@ header{
 #endorsement{
 	min-height: 7rem;
 	background-color: #f0f0f0;
-	min-width: 490px;
+	width: 100%;
 	border-bottom: 5px solid white;
 }
 #endorse{
@@ -153,7 +152,7 @@ input{
 	cursor: pointer;
 	text-decoration: none;
 }
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 468px){
 	header{
 		height: 90px;
 	}
