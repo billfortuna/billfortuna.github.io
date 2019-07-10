@@ -9,7 +9,7 @@ div{
 	padding: 0;
 }
 header{
-	
+	width: 100%;
 	background-color: black;
 	margin: auto;
 	min-height: 120px;
@@ -43,7 +43,9 @@ header{
 	margin: auto;
 	max-width: 1366px;
 }
-#showca
+#showcase{
+	width: 100%;
+}
 
 .boxes{
 	min-height: 150px;
