@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marjorie Coffee Corp | Check Out</title>
+	<link rel="stylesheet" href="cart.css">
+<script>
+	function Solve(){
+		let x = document.getElementById('input1').value;
+		let y = document.getElementById('input2').value;
+		let answer = x+y;
+		document.getElementById('ans').value = answer;
+		let  num = true;
+		console.log(typeof num);
+		alert(answer);
+	}
+</script>
+</head>
+<header>
+	<div>
+		<div id="logo">
+			<img src="coffee-logo.jpg">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="store.html">Store</a></li>
+				<li><a href="community.html">Community</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="login.html">Store</a></li>
+				<li><a href="cart.html">Cart</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<body>
+	<div id="container">
+		<div id="inner-container">
+			<div id="checklist">
+				<h1> Check Out</h1>
+				<div id="itemlist">
+				<input type="text" id="input1">
+				<input type="text" id="input2">
+				<input type="submit" onclick="Solve()">
+				<input type="text" id="ans">
+				
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+<footer>
+	<h4>Marjorie Coffee Corporation</h4>
+</footer>
+</html>
