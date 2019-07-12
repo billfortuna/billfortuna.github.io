@@ -47,13 +47,13 @@ header{
 	margin: auto;
 	text-align: center;
 	padding: 15px;
-	border: 1px solid black;
+	
 }
 
 #endorsement{
 	min-height: 7rem;
 	background-color: #f0f0f0;
-	min-width: 490px;
+	
 	border-bottom: 5px solid white;
 }
 #endorse{
