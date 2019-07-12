@@ -9,7 +9,6 @@ div{
 	padding: 0;
 }
 header{
-	
 	background-color: black;
 	margin: auto;
 	min-height: 120px;
@@ -152,9 +151,9 @@ input{
 	cursor: pointer;
 	text-decoration: none;
 }
-@media(max-width: 500px){
+@media(max-width: 800px){
 	header{
-		height: 90px;
+		min-height: 90px;
 	}
 	#logo img{
 		height: 70px;
